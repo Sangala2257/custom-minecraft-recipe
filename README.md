@@ -80,3 +80,33 @@ In a shaped recipe, you have a specified pattern and a key of items like so, cod
 
 # Shapeless Crafting
 there is another type of crafting which is shapeless, the shapeless crafting has no pattern, but instead has a list and number of items for the craft, code found in ``recipe_test>recipes (2)>.json`` in files (this repository)
+
+```
+
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "minecraft:item"
+    },
+
+
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:item",
+        "count": 4
+      },
+      {
+        "item": "minecraft:item",
+        "count": 4
+      }
+    ],
+    "result": {
+      "item": "minecraft:item",
+      "data": 0,
+      "count": 1
+    }
+  }
+}
+```
