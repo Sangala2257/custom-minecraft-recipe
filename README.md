@@ -15,3 +15,4 @@ in a crafting table, there are two types of crafting, shaped and shapeless, we w
 
 In a shaped recipe, you have a specified pattern and a key of items like so, found in ``.json`` in files (this repo.)
 
+# Shapeless Crafting
