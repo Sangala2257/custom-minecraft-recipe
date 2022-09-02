@@ -41,16 +41,42 @@ git clone https://github.com/Bubble4834/custom-minecraft-recipe
     ]
 }
 ```
-4. To add recipes, you must create a folder names ``recipes``, within the main folder, within that folder, the game uses ``.json`` to create recipes. After that paste this code to your ``.json``.
-
-```
-
-
+4. To add recipes, you must create a folder names ``recipes``, within the main folder, within that folder, the game uses ``.json`` to create recipes.
 5. There are many Crafting Style. 
 # Shaped crafting
 in a crafting table, there are two types of crafting, shaped and shapeless, we will begin with shaped.
 
 In a shaped recipe, you have a specified pattern and a key of items like so, code found in ``recipe_test>recipes>.json`` in files (this repository)
+
+```
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:item"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XX",
+      "X#",
+      " #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:item"
+      },
+      "X": {
+        "item": "minecraft:item"
+      }
+    },
+    "result": {
+      "item": "minecraft:item"
+    }
+  }
+}
+```
 
 # Shapeless Crafting
 there is another type of crafting which is shapeless, the shapeless crafting has no pattern, but instead has a list and number of items for the craft, code found in ``recipe_test>recipes (2)>.json`` in files (this repository)
