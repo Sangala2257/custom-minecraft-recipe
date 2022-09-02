@@ -13,6 +13,7 @@ The recipe book can be displayed in inventory, crafting table, furnace, blast fu
 # Shaped crafting
 in a crafting table, there are two types of crafting, shaped and shapeless, we will begin with shaped.
 
-In a shaped recipe, you have a specified pattern and a key of items like so, found in ``.json`` in files (this repo.)
+In a shaped recipe, you have a specified pattern and a key of items like so, code found in ``recipes>.json`` in files (this repository)
 
 # Shapeless Crafting
+there is another type of crafting which is shapeless, the shapeless crafting has no pattern, but instead has a list and number of items for the craft, code found in ``recipes (2)>.json`` in files (this repository)
